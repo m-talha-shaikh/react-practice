@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import DayOne from './pages/weekOne/DayOne'
+import Navbar from './Navbar'
 
 export default function App() {
   return (
@@ -7,8 +8,8 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         {/* JSX Comment */}
-        <Route index element={<DayOne />} />
-        <Route path='/weekOne/dayOne' element={<DayOne />} />
+        <Route index element={<Navbar />} />
+        <Route path='/dayOne' element={<DayOne />} />
       </Routes>
     </BrowserRouter>
     </>
