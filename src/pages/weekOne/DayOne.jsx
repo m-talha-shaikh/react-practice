@@ -1,10 +1,11 @@
-import Header from '../../components/weekOne/Header'
+import Sheep from '../../components/weekOne/dayOne/Sheep'
+import Information from '../../components/weekOne/dayOne/Information'
 
 export default function DayOne(){
     return (
         <>
-        <Header />
-        <h2>This is Day One</h2>
+        <Sheep />
+        <Information />
         </>
     )
 }
