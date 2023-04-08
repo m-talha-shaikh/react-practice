@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    font-family: monospace;
+    text-align: center;
+}
+
+body{
+    max-width: 100vw;
+    margin:0px;
+}
+
+#root{
+    width: 95vw;
+    margin: auto;
+}
+
+.booklist{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 10px;
+    padding-top: 100px;
+}
+
+.book{
+    background-color: cornsilk;
+    padding: 5% 7%;
+    box-shadow: 0 5px 25px 0px rgba(0, 0, 0, .25);
+}
+
+img{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}

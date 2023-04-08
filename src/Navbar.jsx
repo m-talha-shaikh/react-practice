@@ -7,6 +7,7 @@ export default function Navbar(){
         <>
             <h2>Navbar</h2>
             <Link to="/dayOne">Day One React Fundamentals - Components Task</Link>
+            <Link to="/dayTwo">Book List</Link>
             {/* <Link to="/dayOne">Day One</Link>
             <Link to="/dayOne">Day One</Link>
             <Link to="/dayOne">Day One</Link>
